@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Muhammad Tayyeb Abdullah | Full Stack Developer</title>
+        <meta name="description"
+                content="Portfolio of Muhammad Tayyeb Abdullah, Full Stack Developer (MERN, PHP, MySQL). Open to jobs, internships and freelance work.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div id="bar"></div>
+        <header>
+                <div class="wrap">
+                        <a class="brand" href="#home"><span>MTA</span>.dev</a>
+                        <nav id="nav">
+                                <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+                                        href="#services">Services</a><a href="#experience">Experience</a><a
+                                        href="#contact">Contact</a>
+                        </nav>
+                        <button class="icon-btn" id="theme" aria-label="Switch light or dark theme">&#9788;</button>
+                        <button class="icon-btn" id="menu" aria-label="Open menu">&#9776;</button>
+                </div>
+        </header>
+
+        <main>
+                <section class="hero" id="home">
+                        <div class="wrap">
+                                <div>
+                                        <div class="badge"><span class="dot"></span>Open to jobs, internships and
+                                                freelancing</div>
+                                        <h1>Muhammad Tayyeb Abdullah</h1>
+                                        <div class="type" id="type" aria-live="off"></div>
+                                        <p class="lead">I build fast, responsive websites and web apps: the React
+                                                interface, the Node.js API and the database behind it.</p>
+                                        <div class="btns">
+                                                <a class="btn p" href="#contact">Hire me</a>
+                                                <a class="btn" href="#projects">View projects</a>
+                                                <a class="btn" href="#contact">Contact me</a>
+                                        </div>
+                                        <div class="stats">
+                                                <div class="stat"><b>MERN</b><span>main stack</span></div>
+                                                <div class="stat"><b>2026</b><span>working as a developer</span></div>
+                                                <div class="stat"><b>3 ways</b><span>job, intern, freelance</span></div>
+                                        </div>
+                                </div>
+                                <div class="code" aria-hidden="true">
+                                        <div class="top"><i></i><i></i><i></i></div>
+                                        <pre><span class="k">const</span> developer = {
+  name: <span class="s">"Muhammad Tayyeb Abdullah"</span>,
+  role: <span class="s">"Full Stack Developer"</span>,
+  stack: [<span class="s">"React"</span>, <span class="s">"Node.js"</span>,
+          <span class="s">"MongoDB"</span>, <span class="s">"PHP"</span>],
+  styling: [<span class="s">"CSS"</span>, <span class="s">"Tailwind"</span>],
+  openTo: [<span class="s">"Job"</span>, <span class="s">"Internship"</span>,
+           <span class="s">"Freelance"</span>]
+};</pre>
+                                </div>
+                        </div>
+                </section>
+
+                <section id="about" class="alt">
+                        <div class="wrap rv">
+                                <h2>About me</h2>
+                                <p class="sub">Who I am and what I work with.</p>
+                                <div class="about">
+                                        <div>
+                                                <p>I am a Full Stack Developer from Pakistan. I started at Logicgigs
+                                                        Tech Solution as a MERN intern and now work there on client
+                                                        projects.</p>
+                                                <p>My main stack is MongoDB, Express.js, React and Node.js. I also work
+                                                        with PHP and MySQL, style with CSS and Tailwind CSS, and use Git
+                                                        and GitHub every day.</p>
+                                                <p>I use AI tools such as Claude Code and ChatGPT to speed up coding,
+                                                        debugging and documentation, and I review everything I ship.</p>
+                                        </div>
+                                        <ul class="facts">
+                                                <li><span>Role</span>Full Stack Developer</li>
+                                                <li><span>Languages</span>Urdu, English</li>
+                                                <li><span>Status</span>Open to work</li>
+                                        </ul>
+                                </div>
+                        </div>
+                </section>
+
+                <section id="skills">
+                        <div class="wrap rv">
+                                <h2>Skills</h2>
+                                <p class="sub">Only technologies I actually work with. Tap a tab to filter.</p>
+                                <div class="tabs" data-for="sk">
+                                        <button class="tab on" data-f="all">All</button><button class="tab"
+                                                data-f="front">Frontend</button><button class="tab"
+                                                data-f="back">Backend and database</button><button class="tab"
+                                                data-f="tools">Tools</button>
+                                </div>
+                                <div class="skills">
+                                        <span class="sk" data-c="front">HTML</span><span class="sk"
+                                                data-c="front">CSS</span><span class="sk" data-c="front">Tailwind
+                                                CSS</span><span class="sk" data-c="front">JavaScript (ES6+)</span><span
+                                                class="sk" data-c="front">React.js</span>
+                                        <span class="sk" data-c="back">Node.js</span><span class="sk"
+                                                data-c="back">Express.js</span><span class="sk"
+                                                data-c="back">MongoDB</span><span class="sk"
+                                                data-c="back">PHP</span><span class="sk" data-c="back">MySQL</span>
+                                        <span class="sk" data-c="tools">Git and GitHub</span><span class="sk"
+                                                data-c="tools">VS Code</span><span class="sk" data-c="tools">Claude
+                                                Code</span><span class="sk" data-c="tools">ChatGPT</span>
+                                </div>
+                        </div>
+                </section>
+
+                <section id="projects" class="alt">
+                        <div class="wrap rv">
+                                <h2>Projects</h2>
+                                <p class="sub">A few things I have built. Filter by type.</p>
+                                <div class="tabs" data-for="pc">
+                                        <button class="tab on" data-f="all">All</button><button class="tab"
+                                                data-f="front">Frontend</button><button class="tab" data-f="full">Full
+                                                stack</button>
+                                </div>
+                                <div class="grid">
+                                        <article class="card pc" data-c="full">
+                                                <div class="shot"><img src="Images/counter.png" alt="" height="170px" width="260px"></div>
+                                                <h3>Project name 1</h3>
+                                                <p>Two lines about what this project does and who it is for.</p>
+                                                <ul class="f">
+                                                        <li>Main feature</li>
+                                                        <li>Main feature</li>
+                                                </ul>
+                                                <ul class="tags">
+                                                        <li>HTML</li>
+                                                        <li>CSS</li>
+                                                        <li>Javascript</li>
+                                                </ul>
+                                                <div class="links"><a href="https://amtayyeb.github.io/Counter_JS/">Live demo</a><a
+                                                                href="https://github.com/amtayyeb/Counter_JS">GitHub</a></div>
+                                        </article>
+                                        <article class="card pc" data-c="full">
+                                                <div class="shot"><img src="Images/dice-game.png" alt="" height="170px" width="260px"></div>
+                                                <h3>Project name 2</h3>
+                                                <p>Two lines about what this project does and who it is for.</p>
+                                                <ul class="f">
+                                                        <li>Main feature</li>
+                                                        <li>Main feature</li>
+                                                </ul>
+                                                <ul class="tags">
+                                                        <li>HTML</li>
+                                                        <li>CSS</li>
+                                                        <li>Javascript</li>
+                                                </ul>
+                                                <div class="links"><a href="https://amtayyeb.github.io/javascript-dice-game/">Live demo</a><a
+                                                                href="https://github.com/amtayyeb/javascript-dice-game">GitHub</a></div>
+                                        </article>
+                                        <article class="card pc" data-c="front">
+                                                <div class="shot"><img src="Images/weather.png" alt="" height="170px" width="260px"></div>
+                                                <h3>Project name 3</h3>
+                                                <p>Two lines about what this project does and who it is for.</p>
+                                                <ul class="f">
+                                                        <li>Main feature</li>
+                                                        <li>Main feature</li>
+                                                </ul>
+                                                <ul class="tags">
+                                                        <li>HTML</li>
+                                                        <li>CSS</li>
+                                                        <li>Javascript</li>
+                                                </ul>
+                                                <div class="links"><a href="https://amtayyeb.github.io/javascript-weather-app/">Live demo</a><a
+                                                                href="https://github.com/amtayyeb/javascript-weather-app">GitHub</a></div>
+                                        </article>
+                                </div>
+                                <p class="note">Replace these cards with your real projects before publishing.</p>
+                        </div>
+                </section>
+
+                <section id="services">
+                        <div class="wrap rv">
+                                <h2>Services</h2>
+                                <p class="sub">What I can do for you as a freelancer.</p>
+                                <div class="grid">
+                                        <div class="card">
+                                                <h3>Responsive websites</h3>
+                                                <p>Websites that look right on phones, tablets and desktops.</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>React applications</h3>
+                                                <p>Interactive frontends built with React and JavaScript.</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>Backend and APIs</h3>
+                                                <p>REST APIs with Node.js and Express.js, or PHP.</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>Databases</h3>
+                                                <p>Database design and queries in MongoDB and MySQL.</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>Bug fixing</h3>
+                                                <p>Finding and fixing problems in existing websites.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section id="experience" class="alt">
+                        <div class="wrap rv">
+                                <h2>Experience and education</h2>
+                                <p class="sub">My path so far.</p>
+                                <div class="line">
+                                        <div class="job">
+                                                <h3>Full Stack Developer, Logicgigs Tech Solution</h3>
+                                                <div class="m">2026 to present</div>
+                                                <ul>
+                                                        <li>Build frontend interfaces and backend features for client
+                                                                projects.</li>
+                                                        <li>Work with the MERN stack and PHP/MySQL.</li>
+                                                        <li>Use Git and GitHub with the development team.</li>
+                                                </ul>
+                                        </div>
+                                        <div class="job">
+                                                <h3>MERN Tech Development Intern, Logic Gigs</h3>
+                                                <div class="m">2026</div>
+                                                <ul>
+                                                        <li>Worked with HTML, CSS, JavaScript, React.js, Node.js,
+                                                                MongoDB and Express.js.</li>
+                                                </ul>
+                                        </div>
+                                        <div class="job">
+                                                <h3>BS Computer Science, University of Technology Nowshera</h3>
+                                                <div class="m">Student</div>
+                                        </div>
+                                </div>
+                                <h3 style="margin:40px 0 18px;font-size:24px">Courses and certificates</h3>
+                                <div class="grid">
+                                        <div class="card">
+                                                <h3>Internship Completion</h3>
+                                                <p>Logic Gigs, MERN Tech Development Intern</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>Web Development Bootcamp</h3>
+                                                <p>iCode Voyagers, certificate of achievement, September 2026</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>Full Stack Development</h3>
+                                                <p>Code Academy, Nowshera, 6 months</p>
+                                        </div>
+                                        <div class="card">
+                                                <h3>English Language</h3>
+                                                <p>Oxford English Language Institute, 1 year</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section id="contact">
+                        <div class="wrap rv">
+                                <h2>Contact me</h2>
+                                <p class="sub">Job, internship or a freelance project? Send a message.</p>
+                                <div class="contact">
+                                        <div class="cl">
+                                                <a
+                                                        href="mailto:amtayyeb8865@gmail.com"><span><small>Email</small>amtayyeb8865@gmail.com</span></a>
+                                                <a href="https://wa.me/923700732535" target="_blank"
+                                                        rel="noopener"><span><small>WhatsApp /
+                                                                        Phone</small>0370-0732535</span></a>
+                                                <a href="https://github.com/amtayyeb" target="_blank"
+                                                        rel="noopener"><span><small>GitHub</small>github.com/amtayyeb</span></a>
+                                                <a href="https://www.linkedin.com/in/amtayyeb/" target="_blank"
+                                                        rel="noopener"><span><small>LinkedIn</small>linkedin.com/in/amtayyeb</span></a>
+                                        </div>
+                                        <form id="form" novalidate>
+                                                <div class="row">
+                                                        <label>Name<input id="n" autocomplete="name"><span class="err"
+                                                                        id="en"></span></label>
+                                                        <label>Email<input id="e" type="email"
+                                                                        autocomplete="email"><span class="err"
+                                                                        id="ee"></span></label>
+                                                </div>
+                                                <label>I am contacting you about<select id="t">
+                                                                <option>A job</option>
+                                                                <option>An internship</option>
+                                                                <option>A freelance project</option>
+                                                                <option>Something else</option>
+                                                        </select></label>
+                                                <label>Message<textarea id="m" rows="5"></textarea><span class="err"
+                                                                id="em"></span></label>
+                                                <div class="btns"><button class="btn" type="button"
+                                                                id="wa">Send on WhatsApp</button></div>
+                                                <div id="status" role="status"></div>
+                                        </form>
+                                </div>
+                        </div>
+                </section>
+        </main>
+        <footer>
+                <div class="wrap">&copy; <span id="yr">2026</span> Muhammad Tayyeb Abdullah. Built with HTML, CSS and
+                        JavaScript.</div>
+        </footer>
+        <button id="top" aria-label="Back to top">&uarr;</button>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
